@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школьный Обменник</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">ШколаОбмен</div>
+            <button class="btn-primary" id="add-btn">Добавить вещь</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <input type="text" placeholder="Поиск вещей..." class="search-input">
+            <div class="categories">
+                <button class="category-tag active">Все</button>
+                <button class="category-tag">Учебники</button>
+                <button class="category-tag">Электроника</button>
+                <button class="category-tag">Хобби</button>
+                <button class="category-tag">Канцелярия</button>
+            </div>
+        </section>
+
+        <section class="items-grid">
+            <div class="item-card">
+                <img src="https://placehold.co/300x200" alt="Учебник" class="item-img">
+                <div class="item-info">
+                    <h3 class="item-title">Учебник по физике 8 класс</h3>
+                    <p class="item-desc">Состояние отличное. Ищу задачник по алгебре.</p>
+                    <span class="item-exchange">Меняю на: Задачник</span>
+                    <button class="btn-secondary">Предложить обмен</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://placehold.co/300x200" alt="Наушники" class="item-img">
+                <div class="item-info">
+                    <h3 class="item-title">Наушники проводные</h3>
+                    <p class="item-desc">Полностью рабочие. Хочу интересную настолку.</p>
+                    <span class="item-exchange">Меняю на: Настольная игра</span>
+                    <button class="btn-secondary">Предложить обмен</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://placehold.co/300x200" alt="Гантели" class="item-img">
+                <div class="item-info">
+                    <h3 class="item-title">Гантели 2 кг</h3>
+                    <p class="item-desc">Лежат без дела. Обменяю на комиксы.</p>
+                    <span class="item-exchange">Меняю на: Комиксы</span>
+                    <button class="btn-secondary">Предложить обмен</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://placehold.co/300x200" alt="Рюкзак" class="item-img">
+                <div class="item-info">
+                    <h3 class="item-title">Рюкзак синий</h3>
+                    <p class="item-desc">Много карманов, целый. Нужна беспроводная мышка.</p>
+                    <span class="item-exchange">Меняю на: Компьютерная мышь</span>
+                    <button class="btn-secondary">Предложить обмен</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay" id="add-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h2>Добавить вещь</h2>
+            <form id="add-form">
+                <input type="text" id="item-title" placeholder="Название (например: Скейтборд)" required>
+                <input type="text" id="item-exchange" placeholder="Что хочешь взамен?" required>
+                <textarea id="item-desc" placeholder="Описание и состояние" required></textarea>
+                <input type="url" id="item-image" placeholder="Ссылка на фото (необязательно)">
+                <button type="submit" class="btn-primary">Опубликовать</button>
+            </form>
+        </div>
+    </div>
+
+   <script type="module" src="app.js"></script>
+</body>
+</html>
