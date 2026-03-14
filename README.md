@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="ССЫЛКА_НА_ТВОЙ_САЙТ" target="_blank">
+  <a href="https://rytpepe.github.io/Barter-site-1788/" target="_blank">
     <img src="https://img.shields.io/badge/🚀_СМОТРЕТЬ_ДЕМО-36BCF7?style=for-the-badge&logoColor=white" alt="Demo" />
   </a>
 </p>
@@ -13,28 +13,27 @@
 <br>
 
 ## 📝 О проекте
-Swap&Go — это интерактивное веб-приложение, созданное для удобного обмена товарами между пользователями. Проект демонстрирует реализацию полноценного клиент-серверного взаимодействия с использованием BaaS (Backend-as-a-Service).
+Swap&Go — это интерактивное веб-приложение, созданное для удобного обмена товарами между пользователями. Проект демонстрирует реализацию клиент-серверного взаимодействия с использованием BaaS (Backend-as-a-Service) для хранения данных в реальном времени.
 
-*Вставь сюда скриншот своего сайта: просто перетащи картинку прямо в редактор GitHub, и он сам сгенерирует для нее ссылку.*
+*(Добавь сюда красивый скриншот главной страницы твоего сайта. Просто перетащи картинку прямо в текстовый редактор GitHub, и он сам создаст для нее ссылку)*
 
 ## ✨ Ключевой функционал
-- **🔐 Аутентификация:** Безопасная регистрация и вход пользователей через Firebase Auth.
-- **🗄 База данных:** Хранение информации о пользователях и товарах в Cloud Firestore в реальном времени.
-- **⚡️ Динамический UI:** Быстрый и отзывчивый интерфейс, построенный на компонентах React.
-- **🛡 Типизация:** Строгая типизация данных с помощью TypeScript для минимизации багов.
+- **🔐 Аутентификация:** Безопасная регистрация и вход пользователей.
+- **🗄 База данных:** Интеграция с Firebase для хранения информации о товарах и пользователях.
+- **⚡️ Динамический UI:** Отзывчивый интерфейс, построенный с использованием классического стека веб-технологий.
 
 ## 🛠 Стек технологий
 <p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
 </p>
 
 ## 🚀 Запуск проекта локально
 
-Если вы хотите развернуть проект у себя:
+Если вы хотите развернуть проект у себя на компьютере для тестирования:
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone [https://github.com/Rytpepe/ТВОЙ_РЕПОЗИТОРИЙ_SWAP_AND_GO.git](https://github.com/Rytpepe/ТВОЙ_РЕПОЗИТОРИЙ_SWAP_AND_GO.git)
+   git clone [https://github.com/Rytpepe/Barter-site-1788.git](https://github.com/Rytpepe/Barter-site-1788.git)
